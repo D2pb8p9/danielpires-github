@@ -1,0 +1,233 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    } /* configurações gerais da dimensão da página*/
+
+    /*abaixo estilização da página Sobre mim*/
+    header{
+        padding: 1.1rem;
+        top: 0;
+        width: 100%;
+        position: fixed;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(54, 20, 87);
+        z-index: 100;
+        box-sizing: border-box;
+        
+    } /* barra de navegação fixada e estilizda*/
+
+    .nome {
+        color: white;
+    }
+
+
+    .menu{
+        font-size: 25px;
+        font-weight: bold;
+        border-width: 1px solid white;
+    }
+
+    a{
+        display: block;
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 5px;
+        border-style: solid;
+        text-align: center;
+        text-decoration: solid;
+    
+        transition: background-color 0.7s;
+    } /* estilização dos links da barra de navegação*/
+    body {
+        width: 100%;
+        
+        
+    }
+    nav > ul {
+        align-items: center;
+        display: flex;
+        gap: 3.5rem;
+        flex-direction: row;
+        justify-content: center; /* Centraliza o menu na horizontal */
+    } /* alinhamento das lista da barra de navegação*/
+
+
+    li {
+        display: inline-block;
+    }
+    main{
+        height: 200px;
+        padding: 8rem 8rem 2rem;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 0px 200px 0px;
+    } /*alinhamento do main da pág Sobre mim*/
+
+    .img {
+        
+        height: 600px;
+        width: 600px;
+        margin: 20px 0px;
+        
+    } /*ajuste das dimensões da foto de perfil*/
+
+    .perfil {
+        height: 110%;
+        margin: 0px 100px;
+        clip-path: circle(35%);
+        
+    }/*estilização do formato da foto*/
+
+    h2{
+        font-size: 50px;
+    }
+
+    .corpo {
+        font-size: 19px;
+        margin-top: 150px;
+        font-weight:400;
+    }
+
+
+    footer{
+        background-color: rgb(54, 20, 87);
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 20px;
+        font-size: 13px;
+        padding: 2px;
+
+    } /*estilização e dimensionamento da barra footer*/
+
+    nav > ul > li > a {
+        text-decoration: none;
+        background-color: rgb(54, 20, 87);
+        margin: auto;
+        color: white;
+        margin-bottom: 20px;
+    }/*estilização dos links da nav*/
+
+    nav > ul > li > a:hover {
+        background-color: white;
+        color: rgb(54, 20, 87);
+    } /*efeito ao passar mouse sobre links da nav*/
+
+    /*abaixo página de formação*/
+    .formacao{
+        display: list-item;
+        list-style: none;
+        margin: 125px 150px 40px 150px;
+    } /*dimensionamento e posicionamento da página de Formação*/
+
+    /*Abaixo página de contato*/
+    .form{
+        font-size: 22px;
+        padding: 90px 50px 90px;
+    }
+
+    .form > li {
+        display: list-item;
+    }/*organização das li do formulário*/
+
+    .contato {
+        display: list-item;
+        list-style: none;
+        justify-items: center;
+        margin-top: 125px;
+    }/*ajuste dos icones de contato*/
+
+    .links > ul {
+        display: flex;
+    }
+
+    .icone {
+        width: 60px;
+    }/*dimensão dos icones de contato*/
+
+    .links > ul > li > a{
+        border: none;
+        padding: 20px;
+        padding: 5px;
+        justify-content: space-between;
+        margin: 40px;
+    }/*distribuição dos icones*/
+
+    .links > ul > li > a:hover {
+        border: 2px solid black;
+        background-color: rgb(54, 20, 87);
+    }/*efeito ao passar mouse sobre icones*/
+
+    .formulario {
+    margin: 25px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    
+    }/*dimensionamento do formulario*/
+
+    .links {
+        margin: 10px 450px 
+    }
+
+    /*abaixo dimensionamento e estilização dos elementos do formulario*/
+    label {
+        font-size: 30px;
+    }
+
+    input {
+        border: 2px solid black;
+        height: 30px;
+        width: 300px;
+    }
+
+    textarea{
+        border: 2px solid black;
+        width: 300px;
+    }
+
+    button {
+            background:white;
+            color: black;
+            border: 4px solid black;
+            border-radius: 5px;
+            height: 30px;
+            width: 100px;
+            font-size: 20px;
+    }
+        
+    button:hover {
+        background-color: rgb(54, 20, 87);
+        color: white;
+        height: 35px;
+        width: 110px;
+    }/*afeito ao passar o mouse sobre botão de envio do formulário*/
+
+    /*Abaixo estilização e dimensionamento da pagina de portfolio*/
+
+    .mainport{
+        display: list-item;
+        justify-content: space-between;
+    }
+
+    .tituloport{
+        margin-top: 140px;
+    }
+
+    .portfolio{
+        margin: 20px 0px 0px 300px;
+    }
+    .site{
+        height: 300px;
+    }
+
+    .site:hover {
+        height: 310px;
+        border: 5px solid black;
+    } /*efeito ao passar mouse sobre imagem do trabalho do portfolio*/
